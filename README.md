@@ -40,17 +40,3 @@ If our work has been useful to you, please cite us!
 ```
 
 ```
-
-## TODO
-- Add which domains each framework excels in
-    - Do the same for schemes
-- Future proof the codebase (use custom forks for each framework)
-- Fix some of the frameworks that have been updated
-- Add benchmarks for frameworks that are not in SoK
-- Build `zkinterface` pipeline for better interoperability (and to get `libspartan` working)
-- Add further documentation for `Rosetta`
-- Add some pictures and graphs
-<<<<<<< HEAD
-- Add build workflows to automate docker error discovery
-=======
->>>>>>> abbf69a23c86a90d0ccf913fc3b724f813642461
