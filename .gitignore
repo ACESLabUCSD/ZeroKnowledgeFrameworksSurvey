@@ -1,0 +1,10 @@
+**/volume/*
+**/*.r1cs
+**/keys/
+**/sok-graphs/*
+**/*.ptau
+**/*.zkey
+**/*.rel
+**/*.txt
+**/emp-bristol/circuits/*.h
+**/limbo/matmul/*.txt

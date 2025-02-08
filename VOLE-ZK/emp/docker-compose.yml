@@ -1,0 +1,18 @@
+version: '3'
+services:
+    party1:
+        image: emp:0.1
+        network_mode: "host"
+        command: ./zktest 1 12345
+        # volumes:
+        #     - $PWD/measurements/docker:/zk-test/bin/logs
+        # command: ./zktest 1 12345
+    party2:
+        image: emp:0.1
+        network_mode: "host"
+        command: ./zktest 2 12345
+        # volumes:
+        #     - $PWD/measurements/docker:/zk-test/bin/logs
+        # command: ./zktest 2 12345
+          #depends_on:
+          #  - party1

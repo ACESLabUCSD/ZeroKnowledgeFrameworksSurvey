@@ -1,0 +1,8 @@
+version: '3'
+services:
+  party1:
+    image: rosetta:0.1
+    network_mode: "host"
+    volumes:
+      - $PWD/logs:/tf-preds-ResNet101_cifar10.csv
+    command: python3 /Rosetta/example/zkp_resnet/tf-predict/main.py --phase test --res_n 101 --dataset cifar10 --test_size 10000

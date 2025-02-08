@@ -1,0 +1,10 @@
+version: '3'
+services:
+    party1:
+        image: dietmc
+        network_mode: "host"
+        command: cargo run --bin dietmc --features jemalloc -- --text --config config.toml --relation matmul/picozk_test.rel --instance matmul/picozk_test.type0.ins --connection-addr 127.0.0.1:7876
+    party2:
+        image: dietmc
+        network_mode: "host"
+        command: cargo run --bin dietmc --features jemalloc -- --text --config config.toml --relation matmul/picozk_test.rel --instance matmul/picozk_test.type0.ins --connection-addr 127.0.0.1:7876 --witness matmul/picozk_test.type0.wit

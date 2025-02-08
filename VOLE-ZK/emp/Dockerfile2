@@ -1,0 +1,8 @@
+FROM emp:latest
+
+WORKDIR /zk-test
+COPY CMakeLists.txt .
+COPY src ./src
+RUN cmake . && make
+WORKDIR bin
+RUN mkdir data

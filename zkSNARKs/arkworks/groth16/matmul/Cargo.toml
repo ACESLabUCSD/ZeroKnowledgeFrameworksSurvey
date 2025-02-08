@@ -1,0 +1,15 @@
+[package]
+name = "ark-matmul"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+ark-ff = { version = "0.4", features = [ "parallel" ] }
+ark-std = { version = "0.4", features = [ "parallel" ] }
+ark-groth16 = { version = "0.4", features = [ "parallel", "r1cs" ] }
+ark-crypto-primitives = { version = "0.4", features = [ "parallel", "r1cs" ] }
+ark-bn254 = { version = "0.4", features = [ "curve" ] }
+ark-relations = { version = "0.4" }
+ark-r1cs-std = { version = "0.4" }
+ark-serialize = "0.4"

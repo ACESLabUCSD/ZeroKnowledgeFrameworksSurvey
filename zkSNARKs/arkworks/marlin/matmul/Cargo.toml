@@ -1,0 +1,18 @@
+[package]
+name = "ark-matmul"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+
+ark-bn254 = { version = "0.3"}
+ark-marlin = { version = "0.3", feature=["print-trace"] }
+ark-relations = "0.3"
+ark-r1cs-std = "0.3"
+ark-ff = "0.3"
+ark-poly = "0.3"
+ark-poly-commit = "0.3"
+ark-std = { version = "0.3", features = ["std"] }
+blake2 = "0.9"
+ark-bls12-381 = { version = "^0.3.0" }
+ark-serialize = { version = "^0.3.0"}

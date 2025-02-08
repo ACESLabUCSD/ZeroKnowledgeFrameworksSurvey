@@ -1,0 +1,5 @@
+use.std::crypto::hashes::sha256
+
+begin
+    exec.sha256::hash_2to1
+end

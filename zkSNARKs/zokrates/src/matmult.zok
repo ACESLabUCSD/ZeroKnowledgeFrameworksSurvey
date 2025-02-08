@@ -1,0 +1,31 @@
+def matmult(field[32][32] a, field[32][32] b) -> field[32][32] {
+    field mut temp = 0;
+
+    field[32][32] mut c = [[0; 32]; 32];
+
+    for u32 i in 0..32 {
+        temp = 0;
+        for u32 j in 0..32 {
+            for u32 k in 0..32 {
+                temp = temp + a[i][k] * b[k][j];
+            }
+            c[i][j] = temp;
+        }
+    }
+    return c;
+}
+
+def main(field[32][32] a, private field[32][32] b, field[32][32] c) {
+    field[32][32] mut c_computed = [[0; 32]; 32];
+
+    c_computed = matmult(a, b);
+
+    for u32 i in 0..32 {
+        for u32 j in 0..32 {
+            assert(c[i][j] == c_computed[i][j]);
+        }
+    }
+
+    return;
+
+}

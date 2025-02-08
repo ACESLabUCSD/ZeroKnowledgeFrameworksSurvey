@@ -1,0 +1,14 @@
+use.std::math::u64
+
+begin
+    repeat.1024
+        push.0
+        repeat.64512
+            mul.0
+            add.1
+        end
+        repeat.1024
+            mul.0
+        end
+    end
+end

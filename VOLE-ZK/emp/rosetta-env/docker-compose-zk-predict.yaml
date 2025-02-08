@@ -1,0 +1,8 @@
+version: '3'
+services:
+  party1:
+    image: rosetta:0.1
+    network_mode: "host"
+    volumes:
+      - $PWD/zklogs:/Rosetta/example/zkp_resnet/rtt-predict/log/res/
+    command: ./Rosetta/example/zkp_resnet/rtt-predict/run_batch_local_cifar10_101.sh

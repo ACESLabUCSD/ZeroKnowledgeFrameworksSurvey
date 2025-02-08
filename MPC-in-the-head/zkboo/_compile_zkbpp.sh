@@ -1,0 +1,2 @@
+# CFLAGS+="-I/usr/include/openssl -L/usr/lib/x86_64-linux-gnu"
+g++ -std=c++11 -g -O2 -march=native -mtune=native -I/usr/include/openssl -L/usr/lib/x86_64-linux-gnu main.cpp affinity_osx.cpp ZKBPP.cpp CircuitContainer.cpp BigIntLib.cpp -o zkbpp_test -lcrypto -lm

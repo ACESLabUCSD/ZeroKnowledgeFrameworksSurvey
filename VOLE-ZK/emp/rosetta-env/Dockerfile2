@@ -1,0 +1,4 @@
+FROM rosetta:latest
+
+RUN mkdir /checkpoint
+COPY checkpoint /checkpoint

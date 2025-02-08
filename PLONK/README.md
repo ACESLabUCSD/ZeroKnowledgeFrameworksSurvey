@@ -1,0 +1,3 @@
+# PLONKs
+
+Permutations over Lagrange-bases for Oecumenical Non-Interactive Arguments of Knowledge (PLONKs), a subset of zk-SNARKs, are a class of non-interactive ZK protocols that improve upon pre-processing zk-SNARKs by getting rid of the trusted setup per circuit, while adding a bit more arithmetic flexibility. PLONKs utilize the idea of a universal and updatable trusted setup, in which a trusted setup procedure is done for circuits up to a certain size. 

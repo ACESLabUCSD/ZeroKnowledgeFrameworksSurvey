@@ -1,0 +1,3 @@
+lpn = "small"
+no_batching = false
+threads = 1

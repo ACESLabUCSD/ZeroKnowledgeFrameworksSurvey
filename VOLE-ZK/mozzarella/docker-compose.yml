@@ -1,0 +1,12 @@
+version: '3'
+services:
+  party1:
+    image: mozz:latest
+    network_mode: "host"
+    command: ./matrix_mul --dim 10 --party prover --listen --ring r224 --base-vole-size=553600 --num-noise-coordinates=2186 --extension-size=10558380
+    # command: ./matrix_mul --help
+  party2:
+    image: mozz:latest
+    network_mode: "host"
+    command: ./matrix_mul --dim 10 --party verifier --ring r224 --base-vole-size=553600 --num-noise-coordinates=2186 --extension-size=10558380 
+  #   commmand: ./matrix_mul --help
