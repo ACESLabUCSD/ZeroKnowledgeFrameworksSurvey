@@ -8,7 +8,7 @@ This work is under active development - we plan on adding more environments and 
 
 ## Entering Docker environments
 
-For all environments, we provide detailed instructions for how to build our benchmarks and build your own custom circuits. If you want to enter any of these environments on your own terminal to look around, run the following command:
+For all environments, we provide detailed instructions for how to build our benchmarks and build your own custom circuits. If you want to enter any of these environments on your own terminal to look around (although we suggest VSCode with the Docker plugin), run the following command:
 ```
 docker run -it <env>
 ```
