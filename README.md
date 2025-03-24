@@ -1,6 +1,6 @@
 # A Survey on Zero-Knowledge Proof Frameworks
 
-This is a supplement to our [Survey on Zero-Knowledge Proof Frameworks](). In this repo, we provide open-source environments for all of the frameworks we discuss in our survey, plus a few more.
+This is a supplement to our [Survey on Zero-Knowledge Proof Frameworks](https://arxiv.org/pdf/2502.07063). In this repo, we provide open-source environments for all of the frameworks we discuss in our survey, plus a few more.
 
 We introduce this as a work to lower the barrier of entry for ZKP developers. Our goal with this repository is to eliminate all of the prep work for new developers, which is often an arduous process. Using our environments and provided benchmarks, the developers can immediately start developing custom apps with our provided examples as a syntax guide.
 
@@ -38,5 +38,10 @@ In an adjacent effort to lower the barrier of entry to ZKPs, we also have an app
 ## Reference
 If our work has been useful to you, please cite us!
 ```
-
+@article{sheybani2025zero,
+  title={Zero-Knowledge Proof Frameworks: A Survey},
+  author={Sheybani, Nojan and Ahmed, Anees and Kinsy, Michel and Koushanfar, Farinaz},
+  journal={arXiv preprint arXiv:2502.07063},
+  year={2025}
+}
 ```
