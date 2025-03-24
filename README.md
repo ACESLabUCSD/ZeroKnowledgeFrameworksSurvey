@@ -1,6 +1,6 @@
-# SoK: Zero Knowledge Frameworks
+# A Survey on Zero-Knowledge Proof Frameworks
 
-This is a supplement to our [SoK on Zero-Knowledge Frameworks](). In this repo, we provide open-source environments for all of the frameworks we discuss in our SoK, plus a few more.
+This is a supplement to our [Survey on Zero-Knowledge Proof Frameworks](). In this repo, we provide open-source environments for all of the frameworks we discuss in our survey, plus a few more.
 
 We introduce this as a work to lower the barrier of entry for ZKP developers. Our goal with this repository is to eliminate all of the prep work for new developers, which is often an arduous process. Using our environments and provided benchmarks, the developers can immediately start developing custom apps with our provided examples as a syntax guide.
 
@@ -8,7 +8,7 @@ This work is under active development - we plan on adding more environments and 
 
 ## Entering Docker environments
 
-For all environments, we provide detailed instructions for how to build our benchmarks and build your own custom circuits. If you want to enter any of these environments on your own terminal to look around, run the following command:
+For all environments, we provide detailed instructions for how to build our benchmarks and build your own custom circuits. If you want to enter any of these environments on your own terminal to look around (although we suggest VSCode with the Docker plugin), run the following command:
 ```
 docker run -it <env>
 ```
@@ -31,7 +31,7 @@ If you believe your framework has been misrepresented (or not represented at all
 
 ## Future Work and Adjacent Works
 
-As we said, we aim to lower the barrier of entry for ZK developers. Our SoK focuses on the performance, usability, and accessibility of these frameworks, providing developers that are new to ZK a great starting point to choose the right ZKP construction and framework for their applications. Our aim is to keep growing this repository, adding new frameworks and updating the included frameworks, as the ZK landscape evolves.
+As we said, we aim to lower the barrier of entry for ZK developers. Our survey focuses on the performance, usability, and accessibility of these frameworks, providing developers that are new to ZK a great starting point to choose the right ZKP construction and framework for their applications. Our aim is to keep growing this repository, adding new frameworks and updating the included frameworks, as the ZK landscape evolves.
 
 In an adjacent effort to lower the barrier of entry to ZKPs, we also have an application-focused [website](https://practical-zk.github.io). We encourage developers of novel applications or authors of cutting-edge work to contribute to this website!
 
@@ -40,17 +40,3 @@ If our work has been useful to you, please cite us!
 ```
 
 ```
-
-## TODO
-- Add which domains each framework excels in
-    - Do the same for schemes
-- Future proof the codebase (use custom forks for each framework)
-- Fix some of the frameworks that have been updated
-- Add benchmarks for frameworks that are not in SoK
-- Build `zkinterface` pipeline for better interoperability (and to get `libspartan` working)
-- Add further documentation for `Rosetta`
-- Add some pictures and graphs
-<<<<<<< HEAD
-- Add build workflows to automate docker error discovery
-=======
->>>>>>> abbf69a23c86a90d0ccf913fc3b724f813642461
