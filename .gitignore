@@ -5,6 +5,5 @@
 **/*.ptau
 **/*.zkey
 **/*.rel
-**/*.txt
 **/emp-bristol/circuits/*.h
 **/limbo/matmul/*.txt
