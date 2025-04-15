@@ -19,5 +19,8 @@ RUN cmake .. && make
 
 # RUN wget https://nigelsmart.github.io/MPC-Circuits/sha256.txt && ./bench sha256.txt 0
 
+# COPY matmul/matmul8.txt .
+# RUN ./bench matmul8.txt 2
+
 COPY matmul/matmul32.txt .
 RUN ./bench matmul32.txt 8

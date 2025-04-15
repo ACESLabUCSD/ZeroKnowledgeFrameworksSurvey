@@ -1,4 +1,4 @@
-with open("matmul128.txt", "r") as in_file:
+with open("matmul32.txt", "r") as in_file:
     lines = in_file.readlines()
 
 x = 0
