@@ -72,6 +72,8 @@ def main():
 
         proof_path = get_project_dir() / "target" / "proof"
         proof_size = proof_path.stat().st_size
+        public_inputs_path = get_project_dir() / "target" / "public_inputs"
+        proof_size = proof_path.stat().st_size + public_inputs_path.stat().st_size
 
         echo("Verifying proof...")
         time_start = time.time()
